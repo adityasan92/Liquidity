@@ -9,8 +9,13 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "./project/static/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.14.3",
+    "bootstrap": "~3.3.6"
+  }
 }
