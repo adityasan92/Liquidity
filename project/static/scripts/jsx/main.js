@@ -11,7 +11,7 @@ var DynamicSearch = React.createClass({
   handleChange: function(event){
     // grab value form input box
     this.setState({searchString:event.target.value});
-    console.log("scope updated!")
+    console.log("scope updated awesome!")
   },
 
   render: function() {
