@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <title>Flask React</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <title>Liquidity</title>
+
   </head>
   <body>
-    <div class="header">
-    </div>
-    <div class="container">
-      <div id="main"></div>
-    </div>
+    <div id="main"></div>
+    <script src="/js/main.js"></script>
+    
     <!-- scripts -->
     <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
